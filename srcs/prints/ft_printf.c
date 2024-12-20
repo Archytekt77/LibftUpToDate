@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 21:00:14 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/20 23:11:23 by lmaria           ###   ########.fr       */
+/*   Updated: 2024/12/20 23:46:42 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,8 +69,8 @@ static int	process_format_string(const char *format, va_list args, int count)
 
 int	ft_printf(const char *format, ...)
 {
-	va_list args;
-	size_t count;
+	va_list	args;
+	size_t	count;
 
 	count = 0;
 	if (format == NULL)
