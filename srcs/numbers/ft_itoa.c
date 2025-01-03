@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/28 13:19:17 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/20 22:44:42 by lmaria           ###   ########.fr       */
+/*   Updated: 2025/01/03 14:14:18 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char	*ft_itoa(int n)
 
 	num = n;
 	len = get_num_len(n);
-	str = (char *)malloc(sizeof(char) * (len + 1));
+	str = ft_calloc(len + 1, sizeof(char));
 	if (!str)
 		return (NULL);
 	str[len] = '\0';

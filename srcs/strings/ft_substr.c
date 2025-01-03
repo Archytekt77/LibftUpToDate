@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 15:10:22 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/20 22:48:31 by lmaria           ###   ########.fr       */
+/*   Updated: 2025/01/03 14:12:10 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		return (ft_strdup(""));
 	if (len > ft_strlen(s + start))
 		len = ft_strlen(s + start);
-	substr = (char *)malloc(sizeof(char) * (len + 1));
+	substr = ft_calloc((len + 1), sizeof(char));
 	if (!substr)
 		return (NULL);
 	i = 0;
