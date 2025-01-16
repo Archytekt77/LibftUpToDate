@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 21:07:35 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/20 23:46:33 by lmaria           ###   ########.fr       */
+/*   Updated: 2025/01/16 16:25:42 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_putnbr_unsigned_fd(unsigned int n, int fd)
 {
-	int count;
+	int	count;
 
 	count = 0;
 	if (n >= 10)

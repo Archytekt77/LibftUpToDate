@@ -6,7 +6,7 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/20 21:00:14 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/20 23:46:42 by lmaria           ###   ########.fr       */
+/*   Updated: 2025/01/16 16:25:26 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,11 +57,7 @@ static int	process_format_string(const char *format, va_list args, int count)
 			count = process_conversion(format, args, count, ptr);
 		}
 		else
-		{
-			// if (ft_putchar_fd((*format) == -1), 1))
-			// 	return (-1);
 			count++;
-		}
 		format++;
 	}
 	return (count);

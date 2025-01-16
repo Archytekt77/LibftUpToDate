@@ -6,7 +6,7 @@
 #    By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/28 13:25:14 by lmaria            #+#    #+#              #
-#    Updated: 2024/12/20 23:34:43 by lmaria           ###   ########.fr        #
+#    Updated: 2025/01/16 16:21:53 by lmaria           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,16 +43,16 @@ LST_LISTS 		= 		ft_lstadd_back.c 	ft_lstadd_front.c		\
 						ft_lstsize.c			
 									
 LST_MEMORIES	= 		ft_bzero.c 			ft_calloc.c 			\
-						ft_memchr.c 		ft_memcmp.c 			\
-						ft_memcpy.c			ft_memmove.c 			\
-						ft_memset.c
+						ft_free_and_null.c	ft_memchr.c 			\
+						ft_memcmp.c 		ft_memcpy.c				\
+						ft_memmove.c 		ft_memset.c
 						
 LST_NUMBERS		=		ft_atoi.c			ft_itoa.c
 					
 LST_PRINTS 		= 		ft_printf.c			ft_putchar_fd.c 		\
 						ft_putendl_fd.c 	ft_putnbr_base_fd.c		\
 						ft_putnbr_fd.c 		ft_putnbr_unsigned_fd.c	\
-						ft_putstr_fd.c
+						ft_putstr_fd.c		get_next_line.c
 						
 LST_STRINGS		=		ft_split.c 			ft_strchr.c				\
 						ft_strdup.c			ft_striteri.c			\
