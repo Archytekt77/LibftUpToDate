@@ -6,13 +6,13 @@
 /*   By: lmaria <lmaria@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 13:44:05 by lmaria            #+#    #+#             */
-/*   Updated: 2024/12/20 23:33:44 by lmaria           ###   ########.fr       */
+/*   Updated: 2025/02/11 13:18:55 by lmaria           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../libft.h"
 
-int static	ft_putnbr_internal(int n, int fd, int count)
+static int	ft_putnbr_internal(int n, int fd, int count)
 {
 	if (n >= 10)
 		ft_putnbr_internal(n / 10, fd, count);
